@@ -60,7 +60,7 @@ export default [
       name: 'Library-New-Text',
       file: `${output}.umd.js`,
       globals: {
-        react: 'React',
+        react: 'React'
         // 'styled-components': 'styled',
         // 'prop-types': 'PropTypes',
         // 'prop-types/checkPropTypes': 'checkPropTypes'
