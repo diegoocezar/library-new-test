@@ -10,15 +10,18 @@
     "eject": "node ../../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
-    "library-new-test": "../../",
-    "react": "file:../../node_modules/react",
-    "react-dom": "file:../../node_modules/react-dom",
-    "react-scripts": "file:../../node_modules/react-scripts"
+    "library-new-test": "link:../..",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
 }
